@@ -23,7 +23,7 @@ namespace Order.Infrastructure.Persistence
         {
             return new List<Domain.Entities.Order>
             {
-                new Domain.Entities.Order() {UserName = "tuser", FirstName = "Test", LastName = "User", EmailAddress = "evanderfernandes@live.com", AddressLine = "Goa", Country = "India", TotalPrice = 350 }
+                new Domain.Entities.Order() {UserName = "tuser", FirstName = "Test", LastName = "User", EmailAddress = "testuser@email.com", AddressLine = "Address", Country = "India", TotalPrice = 350 }
             };
         }
     }
